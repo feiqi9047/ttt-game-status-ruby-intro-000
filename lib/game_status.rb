@@ -23,3 +23,10 @@ def draw?(board)
   end
 end
 
+def over?(board)
+  if draw?(board)==true && full?(board)==true && won?(board)==true
+    return true
+  else
+    return false
+  end
+end
