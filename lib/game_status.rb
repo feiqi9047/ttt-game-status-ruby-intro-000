@@ -33,7 +33,7 @@ end
 
 def winner(board)
   if won?(board)
-  return won?(board).first
+  return board[won?(board).first]
 else 
   return nil
 end
