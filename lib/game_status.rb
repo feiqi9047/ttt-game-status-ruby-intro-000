@@ -12,4 +12,4 @@ end
 end
 
 def full?(board)
-  
+  board.all? == ("X" || "O")
