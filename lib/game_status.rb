@@ -12,6 +12,6 @@ end
 end
 
 def full?(board)
-  board.all? do {|index| board[index]== ("X" || "O")}
+  board.all? do {|index| index=="X" || index=="O"}
 end
 end
