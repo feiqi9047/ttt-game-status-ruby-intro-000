@@ -22,3 +22,4 @@ def draw?(board)
     return FALSE
   end
 end
+end
